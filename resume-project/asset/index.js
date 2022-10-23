@@ -4,7 +4,7 @@ let hobbies = "";
 window.onload = init;
 
 function getJsonData() {
-  return fetch("asset/data.json")
+  return fetch("asset/Data.json")
     .then((response) => {
       return response.json();
     })
